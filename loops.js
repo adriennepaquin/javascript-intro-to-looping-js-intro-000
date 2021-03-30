@@ -8,7 +8,7 @@ function forLoop(array) {
     }
   }
   array.slice(11);
-  console.log(array);
+  //console.log(array);
 }
 
 function whileLoop(n) {
