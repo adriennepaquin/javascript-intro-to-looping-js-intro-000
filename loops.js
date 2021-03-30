@@ -1,11 +1,11 @@
 function forLoop(array) {
   for (let i = 0; i < 25; i++) {
     //array.push("I am ${i + 1} strange loop${i === 0 ? \'\' : \'s\'}.");
-    if (i === 0) {
+    if (i > 10) {
       //console.log("I am 1 strange loop.");
       array.push("I am 1 strange loop.");
     }
-    else {
+    elif (i > 11) {
       array.push("I am " + (i + 1) + " strange loops.");
       //array.concat("I am " + (i + 1) + " strange loops.");
     }
