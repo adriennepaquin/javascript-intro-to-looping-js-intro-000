@@ -2,7 +2,7 @@ function forLoop(array) {
   for (let i = 0; i < 35; i++) {
     //array.push("I am ${i + 1} strange loop${i === 0 ? \'\' : \'s\'}.");
     if (i <= 9) {
-      next;
+      continue;
     }
     elif (i > 9) {
       //console.log("I am 1 strange loop.");
