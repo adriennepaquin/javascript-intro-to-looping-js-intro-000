@@ -7,7 +7,7 @@ function forLoop(array) {
       array.push("I am " + (i + 1) + " strange loops.");
     }
   }
-  array.slice(11);
+  newArray = array.slice(11);
   //console.log(array);
 }
 
