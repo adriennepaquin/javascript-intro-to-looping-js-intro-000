@@ -1,5 +1,5 @@
 function forLoop(array) {
-  newArray = array.slice();
+  newArray = array.slice(1);
   for (let i = 0; i < 25; i++) {
     if (i === 0) {
       newArray.push("I am 1 strange loop.");
