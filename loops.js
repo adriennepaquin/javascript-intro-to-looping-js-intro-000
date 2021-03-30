@@ -8,7 +8,7 @@ function forLoop(array) {
     }
   }
   newArray = array.slice(1);
-  //console.log(newArray);
+  console.log(newArray);
   return newArray;
 }
 
