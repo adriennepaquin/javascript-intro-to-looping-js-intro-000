@@ -7,8 +7,8 @@ function forLoop(array) {
       array.push("I am " + (i + 1) + " strange loops.");
     }
   }
-  array.slice(11);
-  console.log(array);
+  array.slice(10);
+  //console.log(array);
 }
 
 function whileLoop(n) {
